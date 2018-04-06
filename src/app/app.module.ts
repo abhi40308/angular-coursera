@@ -4,6 +4,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { DishService } from './services/dish.service';
+import { LeaderService } from './services/leader.service';
 import { PromotionService } from './services/promotion.service'
 import { HttpModule } from '@angular/http';
 import { FormsModule } from '@angular/forms';
@@ -41,7 +42,7 @@ import { AppRoutingModule } from './app-routing/app-routing.module';
     HttpModule,
     FormsModule
   ],
-  providers: [DishService, PromotionService],
+  providers: [DishService, PromotionService, LeaderService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

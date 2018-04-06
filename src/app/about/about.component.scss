@@ -1,0 +1,19 @@
+md-list-item {
+	min-height: 100px;
+}
+
+md-list-item img {
+	margin-right : 15px;
+	border-radius: 50px;
+}
+
+md-list-item p {
+     width: 70vw;
+     white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+}
+
+.bold {
+	font-weight: bold;
+}
