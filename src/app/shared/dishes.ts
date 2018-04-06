@@ -2,9 +2,11 @@ import { Dish } from './dish';
 
 export const DISHES: Dish[] = [
     {
+        id: 0,
         name: 'Uthappizza',
         image: '/assets/images/uthappizza.png',
         category: 'mains',
+        featured: true,
         label: 'Hot',
         price: '4.99',
         description: 'A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.',
@@ -41,8 +43,10 @@ export const DISHES: Dish[] = [
             }
         ]
     },
-    {
+    {   
+        id: 1,
         name: 'Zucchipakoda',
+        featured: false,
         image: '/assets/images/zucchipakoda.png',
         category: 'appetizer',
         label: '',
@@ -82,7 +86,9 @@ export const DISHES: Dish[] = [
         ]
     },
     {
+        id: 2,
         name: 'Vadonut',
+        featured: false,
         image: '/assets/images/vadonut.png',
         category: 'appetizer',
         label: 'New',
@@ -122,7 +128,9 @@ export const DISHES: Dish[] = [
         ]
     },
     {
+        id: 3,
         name: 'ElaiCheese Cake',
+        featured: false,
         image: '/assets/images/elaicheesecake.png',
         category: 'dessert',
         label: '',
